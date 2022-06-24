@@ -1,0 +1,67 @@
+.main_container
+{
+    background-color: rosybrown;
+    width: 500px;
+    border-radius: 10px;
+    font-size: large;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+.selection-container
+{
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   align-items: center; 
+}
+.selection-container p{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+select{
+    border: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+select:focus
+{
+    outline: none;
+}
+option{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    color: darkblue;
+    background-color: goldenrod;
+}
+button:hover{
+background-color: darkolivegreen;
+color: black;
+}
+.result_container
+{
+    display: flex;
+    background-color: lightslategray;
+    border: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.result_container p
+{
+color: maroon;
+
+}
